@@ -103,11 +103,11 @@ module.exports = [
                 categorized[category].push(cmd);
             }
 
-            let text = `╭━━━❒ ${applyStyle("FLASH-MD System INFO", 10)} ❒━━━╮\n`;
+            let text = `╭━━━❒ ${applyStyle("MATRIX-XMD System INFO", 10)} ❒━━━╮\n`;
             text += `┃ 🧩 *Commands:* ${allCommands.length.toLocaleString()}\n`;
             text += `┃ 🪄 *Prefix:* ${prefix}\n`;
             text += `┃ ⏰ *Time:* ${time.format('HH:mm:ss')}\n`;
-            text += `┃ 🌍 *Timezone:* ${config.timezone || 'Africa/Lagos'}\n`;
+            text += `┃ 🌍 *Timezone:* ${config.timezone || 'Africa/Nairobi'}\n`;
             text += `┃ 📅 *Date:* ${time.format('DD/MM/YYYY')}\n`;
             text += `┃ 🔋 *Uptime:* ${uptime}\n`;
             text += `┃ 💻 *Platform:* ${platform}\n`;
@@ -189,8 +189,8 @@ module.exports = [
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363238139244263@newsletter',
-                        newsletterName: 'FLASH-MD',
+                        newsletterJid: '120363405078307965@newsletter',
+                        newsletterName: 'Zenor Tech',
                         serverMessageId: -1
                     }
                 }
