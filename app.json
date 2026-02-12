@@ -1,7 +1,7 @@
 {
-  "name": "FLASH-MD-V2.5",
+  "name": "MATRIX-XMD",
   "description": "A WhatsApp bot powered by Baileys.",
-  "repository": "https://github.com/franceking1/FLASH-MD-V2",
+  "repository": "https://github.com/thegrounder254/MATRIX-XMD",
   "stack": "heroku-24",
   "scripts": {
     "postdeploy": "echo 'Deployment complete!'"
