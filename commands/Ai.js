@@ -64,7 +64,7 @@ module.exports = [
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
               display_text: "Visit Repo",
-              url: "https://github.com/franceking1/Flash-Md-V2"
+              url: "https://github.com/thegrounder254/MATRIX-XMD"
             })
           },
           {
@@ -694,7 +694,7 @@ module.exports = [
 
     try {
       await sock.sendMessage(chatId, {
-        text: "*FLASH-MD is generating your pairing code...*"
+        text: "*MATRIX-XMD is generating your pairing code...*"
       }, { quoted: msg });
 
       const response = await axios.get(url);
@@ -712,7 +712,7 @@ module.exports = [
           name: "cta_url",
           buttonParamsJson: JSON.stringify({
             display_text: "Visit Repo",
-            url: "https://github.com/franceking1/Flash-Md-V2"
+            url: "https://github.com/thegrounder254/MATRIX-XMD"
           })
         },
         {
