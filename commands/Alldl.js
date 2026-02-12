@@ -31,7 +31,7 @@ module.exports = {
           caption,
           contextInfo: {
             externalAdReply: {
-              title: "FLASH-MD V2 - Media Downloader",
+              title: "MATRIX-XMD - Media Downloader",
               body: "Fast & Reliable Downloader",
               mediaType: 1,
               thumbnailUrl: data.imageUrl || '',
