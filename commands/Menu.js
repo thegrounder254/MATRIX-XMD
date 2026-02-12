@@ -138,8 +138,8 @@ module.exports = [
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363238139244263@newsletter',
-                        newsletterName: 'FLASH-MD',
+                        newsletterJid: '120363405078307965@newsletter',
+                        newsletterName: 'Zenor Tech',
                         serverMessageId: -1
                     }
                 }
